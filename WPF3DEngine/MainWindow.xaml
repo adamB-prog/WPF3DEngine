@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF3DEngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       
+        xmlns:local="clr-namespace:WPF3DEngine"
+        xmlns:sharpGL="clr-namespace:SharpGL.WPF;assembly=SharpGL.WPF"
+        Title="MainWindow" Height="720
+        " Width="1280">
+    
+        <sharpGL:OpenGLControl x:Name="OpenGLControl" FrameRate="10000" RenderContextType="FBO" OpenGLDraw="OpenGLControl_OpenGLDraw" OpenGLInitialized="OpenGLControl_OpenGLInitialized" Loaded="OpenGLControl_Loaded" />
+
+
+        
+
+    
+
+</Window>
