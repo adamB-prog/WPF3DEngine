@@ -13,7 +13,7 @@ uniform vec3 lightPos;
 uniform vec3 viewPos;
 
 
-vec3 lightColor = vec3(1,0.5,1);
+vec3 lightColor = vec3(1,1,1);
 float ambientStrength = 0.01;
 float specularStrength = 0.1;
 vec3 ambient = ambientStrength * lightColor;
