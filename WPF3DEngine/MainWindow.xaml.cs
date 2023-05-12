@@ -54,48 +54,6 @@ namespace WPF3DEngine
         private void OpenGLControl_OpenGLInitialized(object sender, SharpGL.WPF.OpenGLRoutedEventArgs args)
         {
             
-
-           
-            //OpenGL gl = args.OpenGL;
-           
-
-            //gl.Enable(OpenGL.GL_DEPTH_TEST);
-            //gl.Enable(OpenGL.GL_BLEND);
-            //gl.BlendFunc(OpenGL.GL_SRC_ALPHA, OpenGL.GL_ONE_MINUS_SRC_ALPHA);
-
-
-            //renderer = new Renderer(gl,(float)ActualWidth, (float)ActualHeight);
-            
-
-
-
-
-
-
-            //string[] paths = { "asd.obj", "cube.obj", "monkey.obj", "torus.obj", "korvalami.obj"};
-            //Texture texture = new Texture(gl, "src/default.png");
-            //ShaderProgram program = new ShaderProgram(gl, File.ReadAllText("Shaders/vtextureShader.vert"), File.ReadAllText("Shaders/ftextureShader.frag"));
-            //Random rnd = new Random();
-            //for (int i = 0; i < 100; i++)
-            //{
-            //    gameObjects.Add(new GameObject(gl, texture, program, paths[i % 5]));
-            //    gameObjects[i].MoveTo(new vec3(rnd.Next(-10, 10), rnd.Next(-10, 10), rnd.Next(-10, 10)));
-
-            //}
-
-
-            //Task task = new Task(() =>
-            //{
-            //    float t = 0;
-            //    while (true)
-            //    {
-            //        t += 0.01f;
-            //        lightPos = new vec3(0, (float)Math.Sin(t), (float)Math.Cos(t));
-            //        System.Threading.Thread.Sleep(1000 / 60);
-            //    }
-            //});
-            //task.Start();
-
         }
 
 
